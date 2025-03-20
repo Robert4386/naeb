@@ -1,0 +1,129 @@
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7fafc; /* Светлый фон */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Заголовок */
+header {
+    background-color: #ffffff; /* Белый фон */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 50px; /* Высота логотипа */
+}
+
+header nav a {
+    color: #4a5568; /* Темно-серый цвет текста */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #2b6cb0; /* Цвет при наведении */
+}
+
+/* Герой секция */
+.hero {
+    background-image: url('https://placehold.co/1200x400');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Высота секции */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Основной контент */
+main {
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #2d3748; /* Темно-синий цвет заголовков */
+}
+
+h1 {
+    font-size: 2rem; /* Размер заголовка */
+}
+
+h2 {
+    font-size: 1.5rem; /* Размер подзаголовка */
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: #ffffff; /* Белый фон для статей */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%; /* Ширина изображения */
+    border-radius: 8px; /* Закругленные углы для изображений */
+}
+
+article p {
+    color: #4a5568; /* Темно-серый цвет текста */
+}
+
+/* Секции с популярными статьями */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Стили для карточек статей */
+.card {
+    background-color: #ffffff; /* Белый фон для карточек */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Эффект при наведении */
+}
+
+.card img {
+    border-radius: 8px; /* Закругленные углы для изображений в карточках */
+}
+
+/* Подвал */
+footer {
+    background-color: #2d3748; /* Темно-синий фон */
+    color: white; /* Белый цвет текста */
+    padding: 20px 0;
+}
+
+footer a {
+    color: #cbd5e0; /* Светло-серый цвет текста */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ffffff; /* Цвет при наведении */
+}
+
+footer .container {
+    text-align: center; /* Центрирование текста */
+}
